@@ -11,3 +11,5 @@ Blog da School of Net - [https://blog.schoolofnet.com](https://blog.schoolofnet.
 SONCast - Podcast da School of Net - [https://podcast.schoolofnet.com](https://podcast.schoolofnet.com)
 
 Canal da School of Net no Youtube: [http://www.youtube.com/c/SchoolofNetCursos](http://www.youtube.com/c/SchoolofNetCursos)
+
+

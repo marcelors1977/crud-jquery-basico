@@ -13,13 +13,23 @@ $app->before(function (Request $request) {
     }
 });
 
+// $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
+//     'db.options' => array(
+//         'driver' => 'pdo_mysql',
+//         'host' => 'db',
+//         'dbname' => 'crud_jquery',
+//         'user' => 'root',
+//         'password' => 'root'
+//     ),
+// ));
+
 $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
     'db.options' => array(
-        'driver' => 'pdo_mysql',
-        'host' => 'localhost',
-        'dbname' => 'crud_jquery',
-        'user' => 'root',
-        'password' => 'root'
+        'driver' => getenv("DB_PDO_DRIVER"),
+        'host' => getenv("DB_HOST"),
+        'dbname' => getenv("DB_DSNAME"),
+        'user' => getenv("DB_USER"),
+        'password' => getenv("DB_PASSWORD")
     ),
 ));
 
