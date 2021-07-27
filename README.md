@@ -13,3 +13,4 @@ SONCast - Podcast da School of Net - [https://podcast.schoolofnet.com](https://p
 Canal da School of Net no Youtube: [http://www.youtube.com/c/SchoolofNetCursos](http://www.youtube.com/c/SchoolofNetCursos)
 
 
+
